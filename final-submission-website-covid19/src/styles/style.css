@@ -1,0 +1,12 @@
+.banner {
+  padding-top: 17vh;
+  padding-bottom: 17vh;
+}
+
+#brand {
+  background: linear-gradient(to right, #fd1100, #ee6a6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}

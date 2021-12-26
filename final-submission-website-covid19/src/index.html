@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" id="icon" />
+    <title>Covid-19 Info</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav-bar stat="#statistik" bed="#bedinfo"></nav-bar>
+    </header>
+    <!-- --- -->
+
+    <!-- Banner -->
+    <statistik-banner></statistik-banner>
+    <!-- --- -->
+
+    <!-- Section Ketersediaan Kamar -->
+    <!-- search bar -->
+    <search-bar></search-bar>
+
+    <div class="container-fluid" id="container-content">
+      <!-- search-result component -->
+      <div class="container my-5">
+        <h3 id="header-text" class="text-center fw-bold py-5">Data akan ditampilkan disini!</h3>
+        <hospital-list></hospital-list>
+      </div>
+      <!-- --- -->
+    </div>
+    <!-- --- -->
+
+    <footer>
+      <div class="container-fluid py-2 bg-dark text-center">
+        <span class="text-light text-muted" style="font-size: 15px">
+          I Wayan Adi Sudirtayasa &copy 2021 | Sumber data berasal dari API
+          <a href="https://github.com/mathdroid/covid-19-api" target="_blank">Mathdroid</a> dan
+          <a href="https://github.com/satyawikananda/rs-bed-covid-indo-api" target="_blank">Satyawikananda</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
